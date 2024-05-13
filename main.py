@@ -8,6 +8,6 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 
-n = 10
+n = 9
 result = fibonacci(n)
 print(f"{n}th Fibonacci number: {result}")
